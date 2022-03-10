@@ -1,0 +1,207 @@
+#slider-block {
+  background: rgb(150, 240, 182);
+}
+
+#slider-block article {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  min-height: 630px;
+}
+
+#slider-block article .sliderLeft {
+  flex-basis: 60%;
+}
+
+#slider-block article .sliderRight {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderLeft {
+  color: #202f72;
+  margin: 80px 0;
+}
+.sliderLeft h4 {
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.sliderLeft h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+p.enjoy {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  letter-spacing: 1.3px;
+}
+.sliderLeft button {
+  padding: 17px 40px;
+  border-radius: 500px;
+  border: none;
+  background-color: #202f72 !important;
+  color: rgb(150, 240, 182);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.sliderRight figure {
+  background: url("./slider1.png");
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+}
+.copywrite {
+  font-size: 13px;
+}
+
+#slider2block {
+  background-color: #f46ebe;
+  background-image: url("https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -427px right -1198px;
+}
+#slider2block article {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  min-height: 590px;
+}
+#slider2block article .slider2Left {
+  flex-basis: 60%;
+}
+
+#slider2block article .slider2Right {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider2Left {
+  color: #202f72;
+  margin: 0px 0;
+}
+.slider2Left h4 {
+  font-size: 16px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.slider2Left h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+/* .slider2Right figure {
+  background: url("");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+} */
+.AppStore {
+  display: flex;
+}
+.AppStore a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 35px;
+}
+.AppStore a #im2 {
+  width: 155px;
+  height: 65px;
+}
+.AppStore a #im1 {
+  width: 133px;
+  height: 42px;
+}
+p.joy {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  letter-spacing: 3.3px;
+}
+#sliderblock3 {
+  background: #2941ab;
+
+  background-image: url("https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#sliderblock3 article {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  min-height: 600px;
+}
+#sliderblock3 article .sliderLeft3 {
+  flex-basis: 60%;
+}
+
+#sliderblock3 article .sliderRight3 {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliderLeft3 {
+  color: #1ed760;
+  margin: 0px 0;
+}
+.sliderLeft3 h4 {
+  font-size: 16px;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.sliderLeft3 h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+p.content {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  letter-spacing: 3.3px;
+}
+.sliderLeft3 button {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-base, #1ed760);
+  color: #2941ab;
+  border-radius: 500px;
+  font-size: inherit;
+  padding: 17px 48px;
+  font-weight: bold;
+  border: none;
+}
+.sliderLeft3 button a {
+  text-decoration: none;
+  color: #2941ab;
+}
+/* .sliderRight3 figure {
+  background:url( )
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+} */

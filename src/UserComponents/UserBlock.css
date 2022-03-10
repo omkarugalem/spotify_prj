@@ -1,0 +1,85 @@
+#userBlock {
+  height: 100vh;
+}
+#userBlock >article {
+  height: 100vh;
+  display: flex;
+}
+.userLeftBlock {
+  flex-basis: 20%;
+  background-color: #000;
+}
+.userRightBlock {
+  flex-basis: 80%;
+  background-color: #121212;
+}
+.userLeftBlock main a {
+  fill: #fff;
+}
+.userLeftBlock main a svg {
+  margin: 14px 12px;
+  padding: 10px;
+  width: 151px;
+  fill: #fff;
+}
+
+.userLeftBlock div ul li a:hover,
+.userLeftBlock div ul li a svg:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+/* .userLeftBlock {
+  position: relative;
+} */
+.userLeftBlock ul li {
+  list-style: none;
+}
+.userLeftBlock ul li a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 34px;
+  text-transform: none;
+  padding: 7px;
+}
+.userLeftBlock ul li a svg {
+  fill: #7a7a7a;
+  margin: 9px 7px -7px;
+}
+.userLeftBlock #secondsec {
+  margin: 0 auto;
+}
+
+.userLeftBlock #secondsec li a .fas {
+  font-size: 21px;
+  width: 45px;
+}
+.userLeftBlock #secondsec li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 6px;
+}
+.userLeftBlock #secondsec li a .fa-heart-square {
+  font-size: 21px;
+  width: 45px;
+  background: lineargradient(#450af5, #c4efd9);
+}
+.userLeftBlock #line {
+  border: 1px solid #7a7a7a;
+  width: 210px;
+  margin: 12px;
+}
+.userLeftBlock .parentp {
+  position: relative;
+  top: 196px;
+}
+.userLeftBlock .parentp .childp {
+  position: absolute;
+  align-items: center;
+  padding-left: 39px;
+  cursor: pointer;
+}
